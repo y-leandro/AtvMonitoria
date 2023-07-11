@@ -4,7 +4,7 @@
 
 
 ```js
-
+Código faltando, ainda vou colocar.
 ```
 ##
 2. Crie um programa que conte o número de palavras em uma frase ou texto fornecido. O programa deve receber o texto como uma string e retornar o número de palavras presentes nele. Utilize laços de repetição e decisão para percorrer a string e contar as palavras.
