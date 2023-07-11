@@ -64,4 +64,7 @@ function ordenarNumeros(lista) {
 ##
 6. Crie o jogo da forca usando JavaScript. Entregue também o arquivo HTML e CSS para a visualização do usuário.
 
-> [Link para jogar :)](https://y-leandro.github.io/AtvMonitoria/atvforca/forca2/)
+### 🕹 [Link para jogar :)](https://y-leandro.github.io/AtvMonitoria/atvforca/forca2/)
+
+![imgjogoforca](https://github.com/y-leandro/AtvMonitoria/assets/102531267/e7b8bb13-3ba3-42eb-8f8d-14a7ee24fda3)
+
