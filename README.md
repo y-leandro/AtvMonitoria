@@ -3,7 +3,7 @@
 1. Crie um programa que gere uma sequência de números aleatórios e exiba-os no console. A função deve permitir que seja definido o tamanho da sequência e o intervalo de números a serem gerados.
 
 
-```js
+```
 Código faltando, ainda vou colocar.
 ```
 ##
