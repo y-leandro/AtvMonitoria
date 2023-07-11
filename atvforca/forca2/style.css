@@ -1,0 +1,89 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #bbd6ff;
+    background-color: #152b47;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+  }
+
+  .jogo {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .forcabloco {
+    fill: transparent;
+    stroke: #bbd6ff;
+    stroke-width: 4px;
+  }
+
+  .palavra span{
+    margin: 0 5px;
+  }
+
+  .membro {
+    display: none;
+  }
+
+  .letraserradas {
+    font-size: 28px;
+  }
+
+  .letraserradas span {
+    margin: 0 3px;
+  }
+
+  .letrarepetida {
+    background-color: #1c1c1c;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: -60px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .letrarepetida p {
+    margin: 0;
+  }
+  
+  .letrarepetida.show {
+    transform: translateY(-50px);
+  }
+
+  .fimdejogo {
+    background-color: #1821356b;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    background: #2980b9;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px 3px #1c1c1c52;
+    padding: 20px;
+    text-align: center;
+  } 
+  
+  .popup button {
+    cursor: pointer;
+    background-color: #bbd6ff;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+  }

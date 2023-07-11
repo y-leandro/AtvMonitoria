@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da forca</title>
+</head>
+<body>
+    <h1>Jogo da forca</h1>
+        
+    <div class="jogo">
+        <div class="forcabloco">
+            <svg height="250" width="200" class="forca">
+                <!-- forca -->
+                <line x1="60" y1="20" x2="140" y2="20" />
+                <line x1="140" y1="20" x2="140" y2="50" />
+                <line x1="60" y1="20" x2="60" y2="230" />
+                <line x1="20" y1="230" x2="100" y2="230" />
+      
+                <!-- cabeça -->
+                <circle cx="140" cy="70" r="20" class="membro" />
+                <!-- corpo -->
+                <line x1="140" y1="90" x2="140" y2="150" class="membro" />
+                <!-- braços -->
+                <line x1="140" y1="100" x2="120" y2="140" class="membro" />
+                <line x1="140" y1="100" x2="160" y2="140" class="membro" />
+                <!-- pernas -->
+                <line x1="140" y1="150" x2="125" y2="190" class="membro" />
+                <line x1="140" y1="150" x2="155" y2="190" class="membro" />
+              </svg>
+        </div>
+
+        <div class="letraserradas">
+            <h3>Letras erradas</h3>
+        </div>
+    </div>
+    
+    
+    <div class="letrarepetida">você já usou essa letra</div>
+
+    <div class="palavra"></div>
+
+    <div class="fimdejogo">
+        <div class="popup">
+            <h2 id="msg"></h2>
+            <button id="btnNovoJogo" onclick="restart()">Novo jogo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
