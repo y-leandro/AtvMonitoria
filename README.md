@@ -3,8 +3,15 @@
 1. Crie um programa que gere uma sequência de números aleatórios e exiba-os no console. A função deve permitir que seja definido o tamanho da sequência e o intervalo de números a serem gerados.
 
 
-```
-Código faltando, ainda vou colocar.
+```js
+function randomNumber(numSeq, numMin, numMax) {
+    for (let i = 0; i < numSeq; i++){
+        let n = Math.floor(Math.random()* (numMax - numMin) + numMin);
+        console.log(n);
+    }
+}
+
+randomNumber(5, 7, 10)
 ```
 ##
 2. Crie um programa que conte o número de palavras em uma frase ou texto fornecido. O programa deve receber o texto como uma string e retornar o número de palavras presentes nele. Utilize laços de repetição e decisão para percorrer a string e contar as palavras.
